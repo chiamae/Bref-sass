@@ -1,0 +1,17 @@
+{
+  "name": "chi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compiler:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "chaima",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
